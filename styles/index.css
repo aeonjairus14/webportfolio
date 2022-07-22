@@ -1,0 +1,29 @@
+* {
+	/*FONT STYLE*/
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.bg-image {
+	background-image: url(./images/gp-land.JPG);
+	min-height: 100vh;
+	background-color: rgba(0, 0, 0, 0.7);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+
+}
+
+#backgroundContainer {
+	background-color: rgba(0, 0, 0, 0.7);
+	min-height: 100vh;
+}
+
+#navBarBG {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+#welcomeNote {
+	background-color: rgba(0, 0, 0, 0);
+}
+
