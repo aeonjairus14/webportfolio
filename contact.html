@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/b63eb65403.js" crossorigin="anonymous"></script>
+
+	<!-- Font: Ubuntu Light 300 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="./styles/contact.css">
+
+
+	<title>GP Portfolio</title>
+</head>
+<body>
+<!-- NAV BAR -->
+	<header class="container-fluid sticky-top" id="header">
+		<nav class="navbar navbar-expand-md navbar-dark" id="navBarBG">
+		  	<a class="navbar-brand text-white" href="./index.html">
+		    	<img src="./images/logo.png" width="40" height="40" class="d-inline-block align-center" alt="">
+				GMP
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarMenu">
+				<ul class="navbar-nav ">
+					<li class="nav-item">
+						<a class="nav-link text-white" href="./index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="./about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="./gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="./contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- END OF NAVBAR -->                           
+
+	<section class="container mt-5">
+		<!-- CONTACT INFORMATION -->
+		<div class="row">
+			<div class="col-12 col-md-6 order-1">
+				<div class="row">
+					<div class="col-1">
+						<i class="fa-solid fa-location-dot"></i>
+					</div>
+					<div class="col-6">
+						<p>The Grand Towers Manila, P.Ocampo Street, Malate, Manila</p>				
+						<p></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1">
+						<i class="fa-solid fa-envelope"></i>
+					</div>
+					<div class="col-6">
+						<p>glennperey3486@gmail.com</p>				
+						<p></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-1">
+						<i class="fa-solid fa-mobile-screen"></i>
+					</div>
+					<div class="col-6">
+						<p>(+63) 927-672-3451</p>				
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<p>You may also reach me on my social media accounts:</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<a  class="text-dark mx-2" href="https://www.facebook.com/gl.enn.904">
+							<i class="fa-brands fa-facebook-square fa-icons " target="_blank"></i>
+						</a>
+						<a class="text-dark mx-2" href="https://www.instagram.com/gl_enn14/">
+							<i class="fa-brands fa-instagram-square fa-icons " target="_blank"></i>
+						</a>
+						<a class="text-dark mx-2" href="https://twitter.com/GLNN14">
+							<i class="fa-brands fa-twitter-square fa-icons " target="_blank"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- END OF CONTACT INFORMATION -->
+
+			<!-- MESSAGE FORM -->
+			<div class="col-12 col-md-6 order-1 rounded" id="messageForm">
+			<form action="#" >
+				<div class="form-group">
+					<label for="txt-Name">Name:</label>
+					<input class="form-control" id="txt-Name" type="text" name="name" placeholder="Enter Full Name" />
+				</div>
+				<div class="form-group">
+					<label for="txt-email">Email Address:</label>
+					<input class="form-control" id="txt-email" type="email" name="name" placeholder="email@sample.com" />
+				</div>
+				<div class="form-group">
+					<label for="txt-select">Services:</label>
+					<select class="form-control" name="services" id="txt-select">
+						<option value="">Front-end Developer</option>
+						<option value="">Back-end Developer</option>
+						<option value="">Full Stack Developer</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="txt-message">Messages:</label>
+					<textarea class="form-control" name="textMessages" id="txt-message" rows="4"></textarea>
+				</div>
+				<button class="btn btn-block btn-light" type="submit" data-toggle="modal" data-target="#successModal">Submit</button>
+			</form>
+		</div>
+		<!-- END OF MESSAGE FORM -->
+	</section>
+
+	<!-- GOOGLE MAPS -->
+	<section class="containter-fluid mt-5" id="mapSection">
+		<div class="row">
+			<div class="col-12 col-md-10 mx-auto">
+				<iframe id="gmap_contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6536352365565!2d120.99235525084495!3d14.56178898187956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c97be774b035%3A0xf28237f16fd9c403!2sThe%20Grand%20Towers%20Manila!5e0!3m2!1sen!2sph!4v1658407265666!5m2!1sen!2sph" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+			</div>
+		</div>
+	</section>
+	<!-- END OF GOOGLE MAPS -->
+
+
+	<!-- Footer -->
+	<div class="Contai"></div>
+	<!-- End of Footer -->
+
+
+	<!-- Modal Contact Sucess -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+	      <div class="modal-header bg-dark">
+	        <h5 class="modal-title text-white" id="exampleModalLabel">Thank you for contacting us.</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body text-center">
+	        Message successfuly sent!
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- End of Modal -->
+
+
+
+
+	<!-- JS Dependencies -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

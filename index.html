@@ -7,11 +7,15 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/b63eb65403.js" crossorigin="anonymous"></script>
 
 	<!-- Font: Ubuntu Light 300 -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+
 
 	<!-- External CSS -->
 	<link rel="stylesheet" href="./styles/index.css">
@@ -20,60 +24,99 @@
 	<title>GP Portfolio</title>
 </head>
 <body>
+	<!-- NAV BAR -->
+	<header class="" id="header">
+		<nav class="navbar navbar-expand-md fixed-top" id="navBarBG">
+		  	<a class="navbar-brand text-white" href="./index.html">
+		    	<img src="./images/logo.png" width="40" height="40" class="d-inline-block align-center" alt="">
+				GMP
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
+			<div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarMenu">
+				<ul class="navbar-nav ">
+					<li class="nav-item">
+						<a class="nav-link text-white" href="./index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="./about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="./gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="./contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- END OF NAVBAR -->
 
-	<!-- BACKGROUND IMAGE -->
-	<div class="bg-image">
-		<div class="container-fluid" id="backgroundContainer">
-			<div class="row">
-				<!-- NAVBAR SECTION -->
-				<div class="col">
-					<nav class="navbar navbar-expand-md navbar-dark" id="navBarBG">
-					  	<a class="navbar-brand text-white" href="#">
-					    	<img src="./images/logo.png" width="50" height="50" class="d-inline-block align-center" alt="">
-							GMP
-						</a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-
-						<div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarMenu">
-							<ul class="navbar-nav ">
-								<li class="nav-item">
-									<a class="nav-link text-white" href="#">Home</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link text-white" href="#">About</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link text-white" href="#">Gallery</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link text-white" href="#">Contact Us</a>
-								</li>
-							</ul>
-						</div>
-					</nav>
-					<div class="row align-items-center">
-						<div class="col-6 jumbotron jumbotron-fluid " id="welcomeNote">
-						  <div class="container text-white border border-top-0 border-right-0 border-bottom-0">
-						    <h1 class="display-2">WELCOME!</h1>
-						    <p class="lead">Hi! I am Glenn Perey and welcome to my web page. You can see here the projects...</p>
-						  </div>
-						</div>
-					</div>
+	<!-- JUMBOTRON -->
+	<section class="jumbotron jumbotron-fluid">
+			<div class="row welcome align-items-center">
+				<div class="col-md-12 pl-5 pl-md-3 text-center" id="welcomeMessage">
+				<h1 class="display-2">WELCOME!</h1>
+				<p>
+					Hi. Welcome to my portfolio. Enjoy exploring. 
+				</p>
+				<a class="text-white" href="#otherlinks">
+					<i class="fa-solid fa-angle-down fa-xl"></i>
+				</a>
 				</div>
-				<!-- END OF NAVBAR -->
-				</div>
-			</div> <!-- END OF ROW -->
+			</div>
+	</section>
+	<!-- END OF JUMBOTRON -->
 
-
-		</div> <!-- END OF CONTAINER -->
-	</div> <!-- END OF BACKGROUND -->
-
+	<!-- OTHER LINKS -->
+	<section class="row justify-content-center mb-5" id="otherlinks">
+		<a class="col-12 col-md-3" href="./about.html">
+			<div class="d-flex align-items-center justify-content-center text-center text-white" id="aboutbox">
+				<h4>Learn more about me</h4>
+			</div>
+		</a>
+		<a class="col-12 col-md-3 mx-4" href="./gallery.html">
+			<div class="d-flex align-items-center justify-content-center text-center text-white" id="gallerybox">
+				<h4>Check my Gallery</h4>
+			</div>
+		</a>
+		<a class="col-12 col-md-3" href="./contact.html">
+			<div class="d-flex align-items-center justify-content-center text-center text-white" id="contactbox">
+				<h4>Get in touch</h4>
+			</div>	
+		</a>	
+	</section>
+	<!-- END OF OTHER LINKS -->
 
 	<!-- Footer -->
-	<div class="Contai"></div>
+	<div class="container-fluid row footerbg">
+		<div class="col-12 col-md-4 text-center mt-5">
+			<p class="text-white ">Get in touch</p>
+			<div class="">
+			<a class="text-white mx-2" href="https://www.facebook.com" target="_blank">
+				<i class="fa-brands fa-facebook-square fa-icons"></i>
+			</a>
+			<a class="text-white mx-2" href="https://instagram.com" target="_blank">
+				<i class="fa-brands fa-instagram-square fa-icons"></i>
+			</a>
+			<a class="text-white mx-2" href="https://twitter.com" target="_blank">
+				<i class="fa-brands fa-twitter-square fa-icons"></i>
+			</a>
+		</div>
+		</div>
+		<div class="col-12 col-md-4">
+			
+		</div>
+		<div class="col-12 col-md-4">
+			<iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6536352365565!2d120.99235525084495!3d14.56178898187956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c97be774b035%3A0xf28237f16fd9c403!2sThe%20Grand%20Towers%20Manila!5e0!3m2!1sen!2sph!4v1658407265666!5m2!1sen!2sph" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12 text-white border-top text-center bg-dark">All Rights Reserve 2022</div>
+	</div>
 	<!-- End of Footer -->
 
 	<!-- JS Dependencies -->

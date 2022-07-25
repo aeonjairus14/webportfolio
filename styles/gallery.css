@@ -1,0 +1,30 @@
+* {
+	/*FONT STYLE*/
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+#navBarBG {
+	background-color: #89876b;
+}
+
+.image-gallery {
+	max-width: 100%;
+	height: auto;
+}
+
+.footerbg {
+	background-color: #2a3027;
+	padding: 4px, 0, 2px, 0;
+}
+
+.fa-icons {
+	font-size: 4rem;
+}
+
+#gmap_canvas {
+	height: 30vh;
+	width: 100%;
+	margin: 4px;
+}

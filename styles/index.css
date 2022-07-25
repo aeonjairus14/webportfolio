@@ -2,28 +2,71 @@
 	/*FONT STYLE*/
 	font-family: 'Open Sans', sans-serif;
 	font-family: 'Ubuntu', sans-serif;
+
+	/*RESET*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.bg-image {
-	background-image: url(./images/gp-land.JPG);
-	min-height: 100vh;
-	background-color: rgba(0, 0, 0, 0.7);
+.jumbotron {
+	background-image: url(../images/gp-land.jpg);
+	
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
 	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-
+	color: #ffffff;
+	border-radius: 0px!important;
 }
 
-#backgroundContainer {
-	background-color: rgba(0, 0, 0, 0.7);
-	min-height: 100vh;
+
+.welcome {
+	padding-top: 160px;
 }
 
-#navBarBG {
-	background-color: rgba(255, 255, 255, 0.2);
+#welcomeMessage h1,  #welcomeMessage p{
+	text-shadow: 2px 2px 8px #000000;
 }
 
-#welcomeNote {
-	background-color: rgba(0, 0, 0, 0);
+#otherlinks {
+	background-color: #657664;
+	padding: 20px;
 }
 
+#aboutbox {
+	background-color: #49302a;
+	height: 250px;
+	width: 100%;
+	margin: 5px;
+}
+
+#gallerybox {
+	background-color: #b99a7b;
+	height: 250px;
+	width: 100%;
+	margin: 5px;
+}
+
+#contactbox {
+	background-color: #674e3c;
+	height: 250px;
+	width: 100%;
+	margin: 5px;
+}
+
+
+.footerbg {
+	background-color: #2a3027;
+	padding: 4px, 0, 2px, 0;
+}
+
+.fa-icons {
+	font-size: 4rem;
+}
+
+#gmap_canvas {
+	height: 30vh;
+	width: 100%;
+	margin: 4px;
+}

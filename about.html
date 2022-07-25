@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/b63eb65403.js" crossorigin="anonymous"></script>
+
+	<!-- Font: Ubuntu Light 300 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="./styles/about.css">
+
+
+	<title>GP Portfolio</title>
+</head>
+<body>
+<!-- NAV BAR -->
+	<header class="container-fluid sticky-top" id="header">
+		<nav class="navbar navbar-expand-md " id="navBarBG">
+		  	<a class="navbar-brand text-white" href="./index.html">
+		    	<img src="./images/logo.png" width="40" height="40" class="d-inline-block align-center" alt="">
+				GMP
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse d-md-flex justify-content-end" id="navbarMenu">
+				<ul class="navbar-nav ">
+					<li class="nav-item">
+						<a class="nav-link text-white" href="./index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="./about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="./gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="./contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- END OF NAVBAR -->
+
+	<!-- ABOUT ME -->
+	<section class="container">
+		<div class="row">
+			<div class="col text-center my-5">
+				<h1>About Me</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 col-md-5 order-2 order-md-1">
+				<p class="text-justify">
+					Hi! I am Glenn Perey, a licensed Electronics & Communication Engineer (ECE) graduated at De La Salle University-Dasmariñas. Currently, I am working in a government office located in Ermita Manila as a technical support and I maintain their website. 
+				</p>
+				<p class="text-justify">
+					Before I worked in my current office, I worked as a Data Analyst in one of telecommunications company here in the Philippines. There, I learned how to automate my MS Excel workbook/ worksheet. First I thought that my work experience will be more on the technical side but my fondness on computer especially in programming was developed. When I transferred company, which is my current office, I was having a hard time in maintaining the website because I only know Visual Basic codes or record macro codes in Excel. That's when I decided to study web development. Somehow it got me to creating web applications which became very helpful in our office, but still, I find it lacking. So I enrolled myself in a bootcamp that helped me to develop skills necessary in web development and it enabled me to widen my knowledge and experience it web development.
+				</p>
+			</div>
+			<div class="col-12 col-md-7 order-1 order-md-2" >
+				<img class="image-fluid w-100 shadow-1-strong rounded" src="./images/glennP.jpg" alt="myPhoto1" id="aboutPhoto1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 order-3">
+				<p class="text-justify">
+					I am now towards my goal of becoming a Full Stack Web Developer. To learn more about me, you can view my curriculum vitae 
+					<a href="#myCV" data-toggle="modal" data-target="#myCV">here</a>.
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- END OF ABOUT ME -->
+
+	<!-- PROJECT SECTION -->
+	<section class="container bg-dark mt-3">
+		<div class="row text-white">
+			<h3 class="col-12 text-center my-3">Projects</h3>
+		</div>
+
+		<div class="row my-3 text-white" id="myProjects">
+
+                <!-- WEB APP -->
+                <div class="col-12 col-md-4 mx-auto order-1 order-md-1 text-center">
+                    <img class="img-thumbnail" src="../images/jbcpage.png" alt="JBC Page"/>
+                    <h5 class="text-center my-3">Web Development</h5>
+                    <p class="text-justify">
+                    	This contains website development projects from where I started building website upto the latest.
+                    		<a href="#webDevModal" data-toggle="modal" data-target="#webDevModal"><em>Read more</em></a>
+                    </p>
+                </div>
+                <!-- END OF WEB APP -->
+
+                <!-- GSCRIPT -->
+                <div class="col-12 col-md-4 mx-auto order-2 order-md-2 text-center">
+                    <img class="img-thumbnail" src="../images/gscript.png" alt="Web App"/>
+                    <h5 class="text-center my-3">Web App Development Using Google Apps Script</h5>
+                    <p class="text-justify">
+                    	These are web app projects which used Google Apps Script. These projects are made as a work-from-home solution for our office specially during the pandemic. 
+                    	<a href="#webGscriptModal" data-toggle="modal" data-target="#webGscriptModal"><em>Read more</em></a>
+                    </p>
+                </div>
+                <!-- END OF GSCRIPT -->
+
+                <!-- PHOTOGRAPHY -->
+                <div class="col-12 col-md-4 mx-auto order-3 order-md-3 text-center">
+                    <img class="img-thumbnail" src="../images/city.JPG" alt="City Photo" />
+                    <h5 class="text-center my-3">Photography</h5>
+                    <p class="text-justify">
+                    	These are collections of my shots as a hobbyist photographer. You can see some of my shots in the 
+                    	<a href="./gallery.html">Gallery</a>.
+                    </p>
+                </div>
+                <!-- END OF PHOTOGRAPHY -->
+            </div>
+	</section>
+	<!-- END OF PROJECT SECTION -->
+
+	<!-- Footer -->
+	<div class="container-fluid row footerbg">
+		<div class="col-12 col-md-4 text-center mt-5">
+			<p class="text-white ">Get in touch</p>
+			<div class="">
+			<a class="text-white mx-2" href="https://www.facebook.com" target="_blank">
+				<i class="fa-brands fa-facebook-square fa-icons"></i>
+			</a>
+			<a class="text-white mx-2" href="https://instagram.com" target="_blank">
+				<i class="fa-brands fa-instagram-square fa-icons"></i>
+			</a>
+			<a class="text-white mx-2" href="https://twitter.com" target="_blank">
+				<i class="fa-brands fa-twitter-square fa-icons"></i>
+			</a>
+		</div>
+		</div>
+		<div class="col-12 col-md-4">
+			
+		</div>
+		<div class="col-12 col-md-4">
+			<iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6536352365565!2d120.99235525084495!3d14.56178898187956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c97be774b035%3A0xf28237f16fd9c403!2sThe%20Grand%20Towers%20Manila!5e0!3m2!1sen!2sph!4v1658407265666!5m2!1sen!2sph" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+		</div>
+	</div>
+	<div class="row1">
+		<div class="col-12 text-white border-top text-center bg-dark">All Rights Reserve 2022</div>
+	</div>
+	<!-- End of Footer -->
+
+
+
+	<!-- Modal for WEB DEV-->
+		<div class="modal fade" id="webDevModal" tabindex="-1" role="dialog" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title">My Web Development Project</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <p>
+		        	This is the website I maintained and it was created using <b>Joomla</b>, a Content Management System (CMS) application. 
+		        	<img class="border border-dark rounded my-2" src="../images/jbcpage.png" alt="JBC Website">
+		        </p>
+		        <p>
+		        	In this project, you will choose a ready-made template and download all the applications and other module or plugins you need. If you choose a free template, you can only modify images and other contents but you will be able to select the color you want, or any personal modifications you want. 
+		        </p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	<!-- END FOR Modal for WEB DEV-->
+
+	<!-- Modal for GSCRIPT-->
+		<div class="modal fade" id="webGscriptModal" tabindex="-1" role="dialog" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title">Web Applications</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <p>
+		        	<img class="border border-dark rounded my-2" src="../images/gscript.png" alt="JBC Website">
+		        </p>
+		        <p>
+		        	The photo above was one of the web applications I made during the pandemic. It was created using <b>Google Apps Script.</b> 
+		        </p>
+		        <p>
+		        	I call the web app "Online Matrix Generation" The app basically searches for the applicant in the database <em>(which is a Google Sheet)</em>, edit their data or delete, then print a generated report which is needed by our office. It was done during the surge of covid-19 that we cannot go to our office to make the report.
+		        </p>
+		        <p>
+		        	There are also other web apps which I used similar technology or process. Some of them are:
+		        	<ul>
+		        		<li>Online Application Scheduler</li>
+		        		<li>Application Voting App</li>
+		        		<li>Applicant Survey</li>
+		        	</ul>
+		        </p>
+		        <p>
+		        	By using this app, somehow we manage to work even outside our office. 
+		        </p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	<!-- END FOR MODAL GSCRIPT -->
+
+	<!-- Modal for my CV-->
+		<div class="modal fade" id="myCV" tabindex="-1" role="dialog" aria-hidden="true">
+		  <div class="modal-dialog modal-xl" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title text-center">Glenn Perey - CV</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <div class="embed-responsive embed-responsive-16by9">
+  					<iframe class="embed-responsive-item" 
+  						    src="./pdf_files/Glenn Perey - CV.pdf" 
+  						    allowfullscreen>
+				    </iframe>
+				</div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	<!-- END FOR Modal for my CV-->
+
+
+	<!-- JS Dependencies -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
