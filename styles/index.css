@@ -9,6 +9,10 @@
 	box-sizing: border-box;
 }
 
+#navBarBG {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
 .jumbotron {
 	background-image: url(../images/gp-land.JPG);
 	height: 100vh;
@@ -16,7 +20,7 @@
 	background-size: cover;
 	background-position: center;
 	color: #ffffff;
-	border-radius: 0px!important;
+	
 }
 
 
