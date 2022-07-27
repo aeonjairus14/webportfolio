@@ -28,9 +28,17 @@
 	padding-top: 160px;
 }
 
-#welcomeMessage h1,  #welcomeMessage p{
+
+#welcomeMessage h1 {
+	font-size: 10vw;
 	text-shadow: 2px 2px 8px #000000;
 }
+
+#welcomeMessage p {
+	font-size: 3vw;
+	text-shadow: 2px 2px 8px #000000;
+}
+
 
 #otherlinks {
 	background-color: #657664;
@@ -73,3 +81,5 @@
 	width: 100%;
 	margin: 4px;
 }
+
+
