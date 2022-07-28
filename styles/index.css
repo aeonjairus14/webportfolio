@@ -20,7 +20,8 @@
 	background-size: cover;
 	background-position: center;
 	color: #ffffff;
-	
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -49,21 +50,21 @@
 	background-color: #49302a;
 	height: 250px;
 	width: 100%;
-	margin: 5px;
+
 }
 
 #gallerybox {
 	background-color: #b99a7b;
 	height: 250px;
 	width: 100%;
-	margin: 5px;
+
 }
 
 #contactbox {
 	background-color: #674e3c;
 	height: 250px;
 	width: 100%;
-	margin: 5px;
+
 }
 
 
